@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "PT sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts\ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts\ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #242424;
+    background-color: #F2F2F2;
+}
+
+.page-header {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.navigation-link {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: inherit;
+}
+
+/*========================КНОПКА*/
+.button-head {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 160px;
+    height: 37px;
+    background-color: #756257;
+    color: #FFFFFF;
+}
+
+.main-index {
+color: #000000;
+background-color: #FFFFFF;
+background-image: url(../image/index-background\ .jpg);
+ background-size: 100% auto;
+background-repeat: no-repeat;
+text-align: center;
+}
+
+.advantages {
+    text-align: center;
+}
+
+.advantages-item-one {
+    width: 400px;
+    height: 384px;
+    background-color: #83B3D3;   
+}
+
+.advantages-item-two {
+    width: 400px;
+    height: 384px;
+    background-color: #83B3D3;
+}
+
+.mailing {
+ color: #FFFFFF;
+ background-image: url(../image/background\ \(1\).jpg)
+ width="1000" 
+ height="485"
+}
+
+.button-newsletter-button {
+    color:#FFFFFF;
+    background-color: #83B3D3;
+    width: 200px;
+    height: 60px;
+}
+
+.catalog-filter {
+    color:#FFFFFF; 
+    background-image: url(../image/catalog-background\ 1.jpg);
+    width: 1200px;
+    height: 408px;
+}
+
+

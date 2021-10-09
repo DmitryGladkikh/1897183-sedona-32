@@ -21,66 +21,67 @@
           </li>
         </ul>
       </nav>
-      <img class="logo" src="image\sedona.png" width="138" height="70" alt="Городк Седона">
+      <img class="logo" src="image\sedona.png" width="138" height="70" alt="Городок Седона">
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-               Поиск
-              </span>
+              <img src="./image/search.svg" alt="поиск">
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-               Избранное
-              </span>
+              <img src="./image/favourites.svg" alt="избранное">
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Хочу сюда!</a>
+            <button class="button-head" type="submit">
+              <span>Хочу сюда</span>
+            </button>
           </li>
         </ul>
     </header>
     <!--===================================================== Main screen -->
     <main class="main-index">
-       <img class="logo" src="" alt="Векторный заголовок">
-       <h1>Седона — небольшой городок в Аризоне,
-        заслуживающий большего!</h1>
+         <img class="main" src="image/welcome.png" alt="Заголовок">
+         <h1>Седона — небольшой городок в Аризоне,
+         заслуживающий большего!</h1>
        <h2>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
        <!--===================================================== Advantages -->
        <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
-          <li class="advantages-item">
+          <li class="advantages-item-one">
            <h3 class="advantages-title">Настоящий
             городок</h3>
             <p class="advantages-description">№1</p>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт 
               своя жизнь</p>
-              <img src="image.png" alt="Фото города">
+              <img src="image\photo-1.jpg" alt="Фото города">
           </li>
         </ul>
         <ul class="advantages-list">
-          <li class="advantages-item">
+          <li class="advantages-item-home">
+            <img src="image\icon-1.png" alt="иконка дом">
             <h3 class="advantages-title">Жильё</h3>
             <p class="advantages-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item-meal">
+            <img src="image\icon-2.png" alt="иконка еда">
             <h3 class="advantages-title">Еда</h3>
             <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item-souvenirs">
+            <img src="image\icon-3.png" alt="иконка сувенир">
             <h3 class="advantages-title">Сувениры</h3>
             <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
         </ul>
         <ul class="advantages-list">
-          <li class="advantages-item">
+          <li class="advantages-item-two">
            <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-description">№2</p>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-              <img src="image.png" alt="Фото Мост дьявола">
+              <img src="./image/photo-1.jpg" alt="Фото Мост дьявола">
           </li>
         </ul>
         <ul class="advantages-list">
@@ -123,13 +124,12 @@
         <p class="search-description">Только полезная информация и никакого спама,
           честное бойскаутское!
         </p>
-        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post" >
           <p class="newsletter-email">
-            <label class="visually-hidden" for="newsletter-email">Email</label>
-            <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+            <input class="field"  placeholder="Ваш e-mai" type="email" name="newsletter-email" id="newsletter-email" required>
           </p>
-          <button class="button newsletter-button" type="submit">
-            <span class="visually-hidden">Отправить</span>
+          <button class="button-newsletter-button" type="submit">
+            <span class="visually-hidden">Подписаться</span>
           </button>
         </form>
        </section>
