@@ -1,8 +1,9 @@
+/*===================================================== ГЛАВНАЯ */
 @font-face {
     font-family: "PT sans";
     font-style: normal;
     font-weight: 400;
-    src: url("fonts\ptsans-400.woff2") format("woff2");
+    src: url(../fonts/ptsans-400.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -10,7 +11,7 @@
     font-family: "PT sans";
     font-style: normal;
     font-weight: 700;
-    src: url("fonts\ptsans-700.woff2") format("woff2");
+    src: url(../fonts/ptsans-700.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -19,7 +20,7 @@ body {
     font-size: 18px;
     line-height: 28px;
     color: #242424;
-    background-color: #F2F2F2;
+    background-color: #FFFFFF;
 }
 
 .page-header {
@@ -28,15 +29,16 @@ body {
 }
 
 .navigation-link {
-    font-family: PT Sans;
+    font-family: "PT sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
     color: inherit;
+    text-decoration: none;
 }
 
-/*========================КНОПКА*/
+/*======================== КНОПКА */
 .button-head {
     font-family: PT Sans;
     font-style: normal;
@@ -51,50 +53,384 @@ body {
     color: #FFFFFF;
 }
 
-.main-index {
-color: #000000;
-background-color: #FFFFFF;
-background-image: url(../image/index-background\ .jpg);
- background-size: 100% auto;
-background-repeat: no-repeat;
-text-align: center;
+.main-screen {
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url(../image/index-background\ .jpg);
+    background-size: 100% auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 1200px; 
+    height: 485px;
 }
+
+.main{
+    margin-top: 50px;
+}
+
+.main-index {
+    color: #000000;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
 
 .advantages {
     text-align: center;
 }
-
+    /*============================================== Преимущества блок 1 */
 .advantages-item-one {
     width: 400px;
     height: 384px;
-    background-color: #83B3D3;   
+    color: #FFFFFF;
+    background-color: #83B3D3; 
+}
+.advantages-title {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
+.advantages-description {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px; 
+    text-align: center;   
+}
+/*============================================== Преимущества БЛОК ИКОНОК */
+.advantages-item-home {
+    background-image: url(../image/icon-1.png);
+    background-repeat: no-repeat;
+}
+.advantages-item-meal {
+    background-image: url(../image/icon-2.png);
+    background-repeat: no-repeat;
+}
+.advantages-item-souvenirs {
+    background-image: url(../image/icon-3.png);
+    background-repeat: no-repeat;
+}
+    /*============================================== Преимущества блок 2 */
 .advantages-item-two {
     width: 400px;
     height: 384px;
+    color: #FFFFFF;
     background-color: #83B3D3;
 }
 
 .mailing {
- color: #FFFFFF;
- background-image: url(../image/background\ \(1\).jpg)
- width="1000" 
- height="485"
+    color: #FFFFFF;
+    background-image: url(../image/background\ \(1\).jpg)
+    width="1000" 
+    height="485"
 }
-
+ 
 .button-newsletter-button {
     color:#FFFFFF;
     background-color: #83B3D3;
     width: 200px;
     height: 60px;
 }
-
-.catalog-filter {
-    color:#FFFFFF; 
-    background-image: url(../image/catalog-background\ 1.jpg);
-    width: 1200px;
-    height: 408px;
+    /*============================================== Search */
+.search-title {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px; 
+    text-align: center;
+    color: #000000;
+}
+.search-description {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px; 
+    text-align: center;
+    color: #000000;
+}
+.button-search {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 160px;
+    height: 37px;
+    background-color: #756257;
+    color: #FFFFFF;
+}
+    /*============================================== Mailing */
+.mailing-title {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
 }
 
+.mailing {
+    width: 1200px;
+    height: 411px;
+    left: 40px;
+    background-image: url(../image/catalog-background\ 1.jpg);
+    background-repeat: no-repeat;
+}
 
+.search-description {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+/*===================================================== Footer */
+
+.footer-social-item-tvitter {
+    background-image: url(../image/twitter.svg);
+    background-repeat: no-repeat;
+}
+
+.footer-social-item-facebook {
+    background-image: url(../image/facebook.svg);
+    background-repeat: no-repeat;  
+}
+
+.footer-social-item-youtube {
+    background-image: url(../image/youtube.svg);
+    background-repeat: no-repeat;
+} 
+
+.footer-contacts-address-phone {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*===================================================== КАТАЛОГ */
+
+.catalog-filter {
+    background-image: url(../image/catalog-background\ 1.jpg);
+    background-repeat: no-repeat; 
+    width: 1200px;
+    height: 600px; 
+}
+
+.button-Amara {
+    width: 151px;
+    height: 37px;
+    background-color: #756257;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.button-Amara-Two {
+    width: 151px;
+    height: 37px;
+    background-color: #83B3D3;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.button-Desert {
+    width: 151px;
+    height: 37px;
+    background-color: #756257;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.button-Desert-Two {
+    width: 151px;
+    height: 37px;
+    background-color: #83B3D3;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.button-Villas {
+    width: 151px;
+    height: 37px;
+    background-color: #756257;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.button-Villas-two {
+    width: 151px;
+    height: 37px;
+    background-color: #7DB54F;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.button-GreenTree {
+    width: 151px;
+    height: 37px;
+    background-color: #756257;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.button-GreenTree-Two {
+    width: 151px;
+    height: 37px;
+    background-color: #83B3D3;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.button-pagination-show-more {
+    width: 625px;
+    height: 55px;
+    background-color: #83B3D3;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.pagination-item-two {
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
+    background-color: #83B3D3;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.pagination-item-three {
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
+    background-color: #83B3D3;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.pagination-item-four {
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
+    background-color: #83B3D3;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.pagination-item-later {
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
+    background-color: #83B3D3;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px; 
+    text-align: center;
+    color: #FFFFFF
+}
+
+.pagination-item-ten {
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
+    background-color: #83B3D3;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px; 
+    text-align: center;
+    color: #FFFFFF
+}
