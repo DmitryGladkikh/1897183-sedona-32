@@ -175,6 +175,7 @@ body {
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
+    text-transform: uppercase;
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
@@ -234,7 +235,10 @@ body {
     height: 600px; 
 }
 
-.button-Amara {
+.button-Amara,
+.button-Desert,
+.button-Villas,
+.button-GreenTree {
     width: 151px;
     height: 37px;
     background-color: #756257;
@@ -242,62 +246,7 @@ body {
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 21px; 
-    text-align: center;
-    color: #FFFFFF
-}
-
-.button-Amara-Two {
-    width: 151px;
-    height: 37px;
-    background-color: #83B3D3;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 21px; 
-    text-align: center;
-    color: #FFFFFF
-}
-
-.button-Desert {
-    width: 151px;
-    height: 37px;
-    background-color: #756257;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 21px; 
-    text-align: center;
-    color: #FFFFFF
-}
-
-.button-Desert-Two {
-    width: 151px;
-    height: 37px;
-    background-color: #83B3D3;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 21px; 
-    text-align: center;
-    color: #FFFFFF
-}
-
-.button-Villas {
-    width: 151px;
-    height: 37px;
-    background-color: #756257;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
+    text-transform: uppercase;
     font-size: 16px;
     line-height: 21px; 
     text-align: center;
@@ -312,26 +261,15 @@ body {
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
+    text-transform: uppercase;
     font-size: 16px;
     line-height: 21px; 
     text-align: center;
     color: #FFFFFF
 }
 
-.button-GreenTree {
-    width: 151px;
-    height: 37px;
-    background-color: #756257;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 21px; 
-    text-align: center;
-    color: #FFFFFF
-}
-
+.button-Amara-Two,
+.button-Desert-Two,
 .button-GreenTree-Two {
     width: 151px;
     height: 37px;
@@ -340,6 +278,7 @@ body {
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
+    text-transform: uppercase;
     font-size: 16px;
     line-height: 21px; 
     text-align: center;
@@ -354,13 +293,30 @@ body {
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
+    text-transform: uppercase;
     font-size: 20px;
     line-height: 26px; 
     text-align: center;
     color: #FFFFFF
 }
 
-.pagination-item-two {
+.pagination-item-one {
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 26px; 
+    text-align: center;
+    color: #000000  
+}
+
+.pagination-item {
     width: 55px;
     height: 55px;
     margin-top: 5px;
@@ -369,68 +325,13 @@ body {
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
+    text-transform: uppercase;
     font-size: 20px;
     line-height: 26px; 
     text-align: center;
-    color: #FFFFFF
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
-.pagination-item-three {
-    width: 55px;
-    height: 55px;
-    margin-top: 5px;
-    background-color: #83B3D3;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px; 
-    text-align: center;
-    color: #FFFFFF
-}
 
-.pagination-item-four {
-    width: 55px;
-    height: 55px;
-    margin-top: 5px;
-    background-color: #83B3D3;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px; 
-    text-align: center;
-    color: #FFFFFF
-}
 
-.pagination-item-later {
-    width: 55px;
-    height: 55px;
-    margin-top: 5px;
-    background-color: #83B3D3;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px; 
-    text-align: center;
-    color: #FFFFFF
-}
-
-.pagination-item-ten {
-    width: 55px;
-    height: 55px;
-    margin-top: 5px;
-    background-color: #83B3D3;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px; 
-    text-align: center;
-    color: #FFFFFF
-}
