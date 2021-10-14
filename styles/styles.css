@@ -3,7 +3,7 @@
     font-family: "PT sans";
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/ptsans-400.woff2) format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -11,7 +11,7 @@
     font-family: "PT sans";
     font-style: normal;
     font-weight: 700;
-    src: url(../fonts/ptsans-700.woff2) format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -56,7 +56,7 @@ body {
 .main-screen {
     color: #ffffff;
     background-color: #000000;
-    background-image: url(../image/index-background\ .jpg);
+    background-image: url("../image/index-background.jpg");
     background-size: 100% auto;
     text-align: center;
     background-repeat: no-repeat;
@@ -106,15 +106,15 @@ body {
 }
 /*============================================== Преимущества БЛОК ИКОНОК */
 .advantages-item-home {
-    background-image: url(../image/icon-1.png);
+    background-image: url("../image/icon-1.png");
     background-repeat: no-repeat;
 }
 .advantages-item-meal {
-    background-image: url(../image/icon-2.png);
+    background-image: url("../image/icon-2.png");
     background-repeat: no-repeat;
 }
 .advantages-item-souvenirs {
-    background-image: url(../image/icon-3.png);
+    background-image: url("../image/icon-3.png");
     background-repeat: no-repeat;
 }
     /*============================================== Преимущества блок 2 */
@@ -127,7 +127,7 @@ body {
 
 .mailing {
     color: #FFFFFF;
-    background-image: url(../image/background\ \(1\).jpg)
+    background-image: url("../image/background(1).jpg")
     width="1000" 
     height="485"
 }
@@ -185,7 +185,7 @@ body {
     width: 1200px;
     height: 411px;
     left: 40px;
-    background-image: url(../image/catalog-background\ 1.jpg);
+    background-image: url("../image/catalog-background1.jpg");
     background-repeat: no-repeat;
 }
 
@@ -202,17 +202,17 @@ body {
 /*===================================================== Footer */
 
 .footer-social-item-tvitter {
-    background-image: url(../image/twitter.svg);
+    background-image: url("../image/twitter.svg");
     background-repeat: no-repeat;
 }
 
 .footer-social-item-facebook {
-    background-image: url(../image/facebook.svg);
+    background-image: url("../image/facebook.svg");
     background-repeat: no-repeat;  
 }
 
 .footer-social-item-youtube {
-    background-image: url(../image/youtube.svg);
+    background-image: url("../image/youtube.svg");
     background-repeat: no-repeat;
 } 
 
@@ -229,7 +229,7 @@ body {
 /*===================================================== КАТАЛОГ */
 
 .catalog-filter {
-    background-image: url(../image/catalog-background\ 1.jpg);
+    background-image: url("../image/catalog-background1.jpg");
     background-repeat: no-repeat; 
     width: 1200px;
     height: 600px; 
