@@ -20,7 +20,6 @@
             <a class="navigation-link" href="hotels.html">Гостиницы</a>
           </li>
         </ul>
-      </nav>
       <img class="logo" src="image\sedona.svg" width="138" height="70" alt="Городок Седона">
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
@@ -39,26 +38,34 @@
             </button>
           </li>
         </ul>
+      </nav>
     </header>
     <!--===================================================== Main screen -->
-    <main class="main-index">
+    <main class="main-container">
+      <div class="page-container">
         <section class="main-screen">
          <img class="main" src="image\welcome1.svg" alt="Заголовок">
         </section>
-         <h1>Седона — небольшой городок в Аризоне,
+         <h1 class="main-title">Седона — небольшой городок в Аризоне,<br>
          заслуживающий большего!</h1>
-         <h2>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
-       <!--===================================================== Advantages -->
-       <section class="advantages">
-        <h2 class="visually-hidden">Преимущества</h2>
-        <ul class="advantages-list">
-          <li class="advantages-item-one">
-           <h3 class="advantages-title">настоящий<br>городок</h3>
-            <p class="advantages-description">-№1-</p>
-            <p class="advantages-description">Седона — не аттракцион для туристов, <br>там течёт 
-              своя жизнь</p>
-          </li>
-          <img src="./image/photo-1.jpg" alt="Фото города Седона">
+         <h2 class="subtitle">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
+
+       <!--=====================================================Преимущества блок 1 -->
+       <div class="first-block">
+         <section class="advantages">
+           <!--<h2 class="visually-hidden">Преимущества</h2>-->
+           <ul class="advantages-list">
+             <li class="advantages-item-one">
+             <h3 class="advantages-title">настоящий<br>городок</h3>
+             <p class="advantages-description">-№1-</p>
+             <p class="advantages-description">Седона — не аттракцион для туристов, <br>там течёт своя жизнь</p>
+             </li>
+            </ul>
+          </section>
+          <section class="advantages-foto"><img src="./image/photo-1.jpg" alt="Фото города Седона" width="800"
+            height="384"></section>
+        </div>
+       <!--=====================================================Преимущества блок 2 Иконки -->
           <li class="advantages-item-home">
             <h3 class="advantages-title">Жильё</h3>
             <p class="advantages-description">Рекомендуем пожить <br>в настоящем мотеле, <br>всё как в кино!</p>
@@ -97,7 +104,6 @@
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
         </ul>
-       </section>
        <!--===================================================== Search -->
        <section class="search">
         <h2 class="search-title">Заинтересовались?</h2>
@@ -121,10 +127,12 @@
           </button>
         </form>
        </section>
+      </div>
     </main>
     <!--===================================================== Footer -->
     <footer class="page-footer">
-      <section class="footer-social">
+      <div class="page-footer-container">
+       <section class="footer-social">
         <ul class="footer-social-list">
           <li class="footer-social-item-tvitter">
             <a class="button-tvitter" href="https://twitter.com/">
@@ -141,7 +149,8 @@
         </ul>
         <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
         <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
-      </section>
+       </section>
+      </div>
     </footer>
   </body>
 </html>

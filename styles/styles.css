@@ -15,7 +15,15 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT sans", sans-serif;
     font-size: 18px;
     line-height: 28px;
@@ -27,6 +35,23 @@ body {
     background: #FFFFFF;
     color: #000000;
 }
+
+.navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-user {
+    max-width: 250px;
+    margin-left: auto;
+  }
 
 .navigation-link {
     font-family: "PT sans", sans-serif;
@@ -62,19 +87,46 @@ body {
     background-repeat: no-repeat;
     width: 1200px; 
     height: 485px;
+    margin: 0 auto;
 }
 
 .main{
     margin-top: 50px;
 }
 
-.main-index {
-    color: #000000;
-    background-color: #FFFFFF;
-    background-repeat: no-repeat;
-    text-align: center;
+.main-container {
+    flex-grow: 1;
 }
 
+.main-title {
+    padding-top: 63px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: normal;
+    font-size: 30px;
+    width: 720px; 
+    height: 80px;
+    margin: 0 auto;
+}
+
+.subtitle {
+    padding-top: 23px;
+    padding-bottom: 79px;
+    text-align: center;
+    color: #333333;
+    line-height: normal;
+    font-size: 22px;
+    width: 720px; 
+    height: 37px;
+    margin: 0 auto;
+}
+
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
 
 .advantages {
     text-align: center;
@@ -104,6 +156,20 @@ body {
     line-height: 21px; 
     text-align: center;   
 }
+
+.first-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin: 0 auto;
+} 
+
+.advantages {
+    width: 400px;
+    height: 384px;
+}
+
+
 /*============================================== Преимущества БЛОК ИКОНОК */
 .advantages-item-home {
     background-image: url("../image/icon-1.png");
@@ -165,6 +231,7 @@ body {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
+    padding: 10px;
     width: 160px;
     height: 37px;
     background-color: #756257;
