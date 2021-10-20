@@ -127,17 +127,7 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
-
-.advantages {
-    text-align: center;
-}
-    /*============================================== Преимущества блок 1 */
-.advantages-item-one {
-    width: 400px;
-    height: 384px;
-    color: #FFFFFF;
-    background-color: #83B3D3; 
-}
+/*============================================== Преимущества блок 1 */
 .advantages-title {
     font-family: PT Sans;
     font-style: normal;
@@ -159,19 +149,37 @@ body {
 
 .first-block {
     display: flex;
-    justify-content: space-between;
-    padding: 0 40px;
     margin: 0 auto;
 } 
 
 .advantages {
+    display: flex;
+    width: 400px;
+    height: 384px;
+    margin: 0 auto;
+    margin-left: auto;
+    background-color: #83B3D3;
+    color: #FFFFFF;
+}
+
+.advantages-foto {
+    display: flex;
+    width: 800px;
+    margin-right: auto;
+}
+
+/*============================================== Преимущества БЛОК ИКОНОК */
+
+.advantages-list-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-item {
     width: 400px;
     height: 384px;
 }
 
-
-/*============================================== Преимущества БЛОК ИКОНОК */
-.advantages-item-home {
+/*.advantages-item-home {
     background-image: url("../image/icon-1.png");
     background-repeat: no-repeat;
 }
@@ -182,20 +190,73 @@ body {
 .advantages-item-souvenirs {
     background-image: url("../image/icon-3.png");
     background-repeat: no-repeat;
+}*/
+
+/*============================================== Преимущества блок 2 */
+
+.advantages-title-two {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
 }
-    /*============================================== Преимущества блок 2 */
-.advantages-item-two {
+
+.advantages-description-two {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px; 
+    text-align: center;   
+}
+
+.second-block {
+    display: flex;
+    margin: 0 auto;
+} 
+
+
+.advantages-foto {
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+}
+
+.advantages-two {
+    display: flex;
     width: 400px;
     height: 384px;
-    color: #FFFFFF;
+    margin: 0 auto;
+    margin-right: auto;
     background-color: #83B3D3;
+    color: #FFFFFF;
 }
+/*============================================== Преимущества блок 3*/
+
+.advantages-list-third {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.advantages-item-third {
+    width: 400px;
+    height: 384px;
+}
+
+
+/*==============================================Блок подписки*/
 
 .mailing {
     color: #FFFFFF;
-    background-image: url("../image/background(1).jpg")
-    width="1000" 
-    height="485"
+    background-image: url("../image/background(1).jpg");
+    width: 1000px; 
+    height: 485px;
+    text-align: center;
+    
 }
  
 .button-newsletter-button {
@@ -204,7 +265,12 @@ body {
     width: 200px;
     height: 60px;
 }
-    /*============================================== Search */
+    /*============================================== Блок поиска гостиниц*/
+
+.search-hotel{
+    width: 1200px;
+    height: 420px;
+}
 .search-title {
     font-family: PT Sans;
     font-style: normal;
@@ -214,30 +280,29 @@ body {
     text-align: center;
     color: #000000;
 }
-.search-description {
+.search-description-date {
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 26px; 
     text-align: center;
-    color: #000000;
+    color: #333333;
 }
 .button-search {
-    font-family: PT Sans;
-    font-style: normal;
+
     font-weight: bold;
-    font-size: 16px;
+
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    width: 160px;
-    height: 37px;
+    width: 575px;
+    height: 60px;
     background-color: #756257;
     color: #FFFFFF;
 }
-    /*============================================== Mailing */
+    /*============================================== Блок подписки */
 .mailing-title {
     font-family: PT Sans;
     font-style: normal;
@@ -256,41 +321,27 @@ body {
     background-repeat: no-repeat;
 }
 
-.search-description {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 26px; 
-    text-align: center;
-    color: #FFFFFF
-}
 
 /*===================================================== Footer */
-
-.footer-social-item-tvitter {
-    background-image: url("../image/twitter.svg");
-    background-repeat: no-repeat;
+.page-footer-container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.footer-social-item-facebook {
-    background-image: url("../image/facebook.svg");
-    background-repeat: no-repeat;  
+.footer-social {
+    width: 200px;
+    margin-right: auto;
 }
 
-.footer-social-item-youtube {
-    background-image: url("../image/youtube.svg");
-    background-repeat: no-repeat;
-} 
-
-.footer-contacts-address-phone {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 40px;
+.phone {
+    width: 720px;
     text-align: center;
-    text-transform: uppercase;
+}
+
+.htmlacademy {
+    width: 200px;
+    margin-left: auto;
 }
 
 /*===================================================== КАТАЛОГ */
