@@ -35,11 +35,15 @@ body {
     background: #FFFFFF;
     color: #000000;
 }
-
+/*===================================================== Шапка*/
 .navigation {
     display: flex;
     width: 1200px;
     margin: 0 auto;
+}
+
+.logo {
+    margin-left: auto;
 }
 
 .navigation-list {
@@ -138,6 +142,12 @@ body {
     text-transform: uppercase;
 }
 
+.advantages-list {
+    padding-top: 55px;
+    padding-left: 65px;
+}
+
+
 .advantages-description {
     font-family: PT Sans;
     font-style: normal;
@@ -204,6 +214,11 @@ body {
     text-transform: uppercase;
 }
 
+.advantages-list-two {
+    padding-top: 55px;
+    padding-left: 65px;
+}
+
 .advantages-description-two {
     font-family: PT Sans;
     font-style: normal;
@@ -239,7 +254,7 @@ body {
 .advantages-list-third {
     display: flex;
     justify-content: space-between;
-
+    margin: 0 auto;
 }
 
 .advantages-item-third {
@@ -247,6 +262,9 @@ body {
     height: 384px;
 }
 
+.fill {
+    background-color: rgba(131, 179, 211, 0.2);
+}
 
 /*==============================================Блок подписки*/
 
@@ -267,7 +285,12 @@ body {
 }
     /*============================================== Блок поиска гостиниц*/
 
-.search-hotel{
+
+.search-title {
+    padding-top: 90px;
+}
+
+.search-hotel {
     width: 1200px;
     height: 420px;
 }
@@ -288,11 +311,10 @@ body {
     line-height: 26px; 
     text-align: center;
     color: #333333;
+    padding-top: 15px;
 }
 .button-search {
-
     font-weight: bold;
-
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
@@ -301,7 +323,13 @@ body {
     height: 60px;
     background-color: #756257;
     color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 312px;
+    margin-top: 70px;
 }
+
+
+
     /*============================================== Блок подписки */
 .mailing-title {
     font-family: PT Sans;
@@ -311,6 +339,7 @@ body {
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
+    padding-top: 94px;
 }
 
 .mailing {
