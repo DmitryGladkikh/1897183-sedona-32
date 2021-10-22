@@ -43,7 +43,7 @@ body {
 }
 
 .logo {
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .navigation-list {
@@ -132,6 +132,7 @@ body {
     margin: 0 auto;
 }
 /*============================================== Преимущества блок 1 */
+
 .advantages-title {
     font-family: PT Sans;
     font-style: normal;
@@ -159,23 +160,18 @@ body {
 
 .first-block {
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
 } 
 
 .advantages {
-    display: flex;
     width: 400px;
     height: 384px;
-    margin: 0 auto;
     margin-left: auto;
     background-color: #83B3D3;
     color: #FFFFFF;
-}
-
-.advantages-foto {
-    display: flex;
-    width: 800px;
-    margin-right: auto;
+    margin: 0;
+    padding: 0;
 }
 
 /*============================================== Преимущества БЛОК ИКОНОК */
@@ -184,23 +180,11 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .advantages-item {
     width: 400px;
     height: 384px;
 }
-
-/*.advantages-item-home {
-    background-image: url("../image/icon-1.png");
-    background-repeat: no-repeat;
-}
-.advantages-item-meal {
-    background-image: url("../image/icon-2.png");
-    background-repeat: no-repeat;
-}
-.advantages-item-souvenirs {
-    background-image: url("../image/icon-3.png");
-    background-repeat: no-repeat;
-}*/
 
 /*============================================== Преимущества блок 2 */
 
@@ -233,13 +217,6 @@ body {
     margin: 0 auto;
 } 
 
-
-.advantages-foto {
-    display: flex;
-    width: 800px;
-    margin-left: auto;
-}
-
 .advantages-two {
     display: flex;
     width: 400px;
@@ -270,7 +247,7 @@ body {
 
 .mailing {
     color: #FFFFFF;
-    background-image: url("../image/background(1).jpg");
+    background-image: url("../image/background1.jpg");
     width: 1000px; 
     height: 485px;
     text-align: center;
