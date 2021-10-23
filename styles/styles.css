@@ -350,15 +350,52 @@ body {
     margin-left: auto;
 }
 
-/*===================================================== КАТАЛОГ */
+/*===================================================== КАТАЛОГ фильтр*/
 
-.catalog-filter {
+/*.catalog-filter {
+    display: flex;
     background-image: url("../image/catalog-background1.jpg");
     background-repeat: no-repeat; 
     width: 1200px;
     height: 600px; 
+}*/
+
+.catalog-filter {
+    width: 1200px;
+    background-color:antiquewhite;
+    width: 1200px;
+    height: 400px; 
 }
 
+.data-entry-block {
+    display: flex;
+}
+
+.filter-block-1 {
+    width: 1200px;
+    height: 150px;
+    background-color:darkcyan;
+}
+
+.filter-block-2 {
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    }
+
+.filter-block-3 {
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+}
+
+.filter-block-4 {
+    width: 700px;
+    height: 250px;
+}
+
+
+/*===================================================== КАТАЛОГ/*/
 .button-Amara,
 .button-Desert,
 .button-Villas,
