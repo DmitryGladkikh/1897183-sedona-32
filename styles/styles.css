@@ -131,7 +131,7 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
-/*============================================== Преимущества блок 1 */
+/*============================================== Преимущества блок 1,2 */
 
 .advantages-title {
     font-family: PT Sans;
@@ -145,17 +145,20 @@ body {
 
 .advantages-list {
     padding-top: 55px;
-    padding-left: 65px;
+    margin: auto;
+    text-align: center;
 }
 
-
 .advantages-description {
+    width: 220px;
+    height: 73px;
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px; 
-    text-align: center;   
+    text-align: center;
+    margin: auto;
 }
 
 .first-block {
@@ -174,21 +177,26 @@ body {
     padding: 0;
 }
 
+.second-block {
+    display: flex;
+    margin: 0 auto;
+} 
+
 /*============================================== Преимущества БЛОК ИКОНОК */
 
-.advantages-list-icon {
+.advantages-icon {
     display: flex;
     justify-content: space-between;
 }
 
-.advantages-item {
+.advantages-home,
+.advantages-eat,
+.advantages-gift {
     width: 400px;
     height: 384px;
 }
 
-/*============================================== Преимущества блок 2 */
-
-.advantages-title-two {
+.icon-title {
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
@@ -196,48 +204,63 @@ body {
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 184px; 
 }
 
-.advantages-list-two {
-    padding-top: 55px;
-    padding-left: 65px;
-}
-
-.advantages-description-two {
+.icon-description {
+    width: 250px;
+    height: 73px;
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px; 
-    text-align: center;   
+    text-align: center;
+    margin: auto;
 }
 
-.second-block {
-    display: flex;
-    margin: 0 auto;
-} 
-
-.advantages-two {
-    display: flex;
-    width: 400px;
-    height: 384px;
-    margin: 0 auto;
-    margin-right: auto;
-    background-color: #83B3D3;
-    color: #FFFFFF;
+.icon-home {
+    background-image: url("../image/icon-1.png");
+    background-repeat: no-repeat;
 }
+
+.icon-eat {
+    background-image: url("../image/icon-2.png");
+    background-repeat: no-repeat;
+}
+
+.icon-gift {
+    background-image: url("../image/icon-3.png");
+    background-repeat: no-repeat;
+}
+
+
 /*============================================== Преимущества блок 3*/
 
 .advantages-list-third {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
 }
 
 .advantages-item-third {
     width: 400px;
     height: 384px;
 }
+
+.title-third {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 98px;
+    }
 
 .fill {
     background-color: rgba(131, 179, 211, 0.2);
