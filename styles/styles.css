@@ -352,26 +352,38 @@ body {
 
 
 /*===================================================== Footer */
-.page-footer-container {
+
+.page-footer-new {
     display: flex;
     width: 1200px;
+    height: 120px;
     margin: 0 auto;
 }
-
 .footer-social {
-    width: 200px;
-    margin-right: auto;
+    width: 240px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
 }
-
-.phone {
+.footer-phone {
     width: 720px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;  
     text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    padding-top: 40px;
 }
 
-.htmlacademy {
-    width: 200px;
-    margin-left: auto;
+.footer-logo {
+    padding-top: 42px;
+    padding-left: 52px;
 }
+
 
 /*===================================================== КАТАЛОГ фильтр*/
 
@@ -417,7 +429,6 @@ body {
     color: #FFFFFF;
     padding-left: 70px;
     padding-top: 53px;
-    border: 2px dotted;
 }
 
 .catalog-filter-1 {
@@ -425,7 +436,6 @@ body {
     flex-direction: column;
     width: 250px;
     height: 240px;
-    border: 2px dotted;
     padding-left: 30px;
 }
 
@@ -434,14 +444,12 @@ body {
     flex-direction: column;
     width: 250px;
     height: 240px;
-    border: 2px dotted;
     padding-left: 30px;
 }
 
 .catalog-filter-3 {
     width: 410px;
     height: 240px;
-    border: 2px dotted;
 }
 
 .catalog-filter-input {
@@ -452,7 +460,6 @@ body {
 .catalog-filter-4 {
     width: 250px;
     height: 240px;
-    border: 2px dotted;
 }
 .botton-filter {
     width: 160px;
@@ -474,7 +481,6 @@ body {
     display: flex;
     width: 1057px;
     height: 47px;
-    border: 1px dotted;
     margin: 0 auto;
     margin-top: 44px;
 }
@@ -527,7 +533,7 @@ body {
     background-position-x: center;
     background-position-y: center;
     margin-left: 8px;
-    border: 2px solid #E6E6E6;
+    border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 4px;
 }
@@ -575,6 +581,16 @@ body {
     background-image: url("../image/stars-3.svg");
     background-repeat: no-repeat;
     margin-left: 310px;
+}
+
+.hotel-card {
+    width: 160px;
+    height: 37px;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 85px;
 }
 
 .button-Amara,
@@ -629,9 +645,6 @@ body {
     color: #FFFFFF
 }
 
-/*===================================================== ПАГИНАЦИЯ*/
-
-
 .button-pagination-show-more {
     width: 625px;
     height: 55px;
@@ -645,6 +658,21 @@ body {
     line-height: 26px; 
     text-align: center;
     color: #FFFFFF;
+    margin-top: 60px;
+    margin-left: 288px;
+}
+
+/*===================================================== ПАГИНАЦИЯ*/
+
+.pagination {
+    display: flex;
+    width: 1056px;
+    height: 55px;
+    margin: 60px;
+}
+.pagination-link {
+    display: flex;
+    margin: 0;
 }
 
 .pagination-item-one {
@@ -660,7 +688,8 @@ body {
     font-size: 20px;
     line-height: 26px; 
     text-align: center;
-    color: #000000  
+    color: #000000;  
+    margin: 0;
 }
 
 .pagination-item {
@@ -678,7 +707,17 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    margin: 0;
 }
 
-
-
+.select-control {
+    width: 160px;
+    height: 48px;
+    border: 2px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0;
+}
+.sorting-type {
+    margin-left: auto;
+}
