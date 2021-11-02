@@ -377,20 +377,23 @@ body {
 
 .catalog-filter {
     width: 1200px;
+    height: 407px;
     background-image: url("../image/catalog-background1.jpg");
-    width: 1200px;
-    height: 400px; 
 }
 
-.inner-header-title {
+.catalog-filter-group {
+    display: flex;
+    margin: 0;
+}
+
+.control-label,
+.filter-throw {
     font-family: PT Sans;
     font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 78px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
     color: #FFFFFF;
-    padding-top: 35px;
-    padding-left: 70px;
 }
 
 .catalog-filter-title {
@@ -398,47 +401,58 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 26px;  
     color: #FFFFFF;
 }
 
-.control-label {
+.catalog-title {
+    width: 620px;
+    height: 105px;
+    margin: 0;
     font-family: PT Sans;
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23px;
-    color: #FFFFFF; 
-}
-
-.data-entry-block {
-    display: flex;
-}
-
-.filter-block-1 {
-    width: 1200px;
-    height: 150px;
-}
-
-.filter-block-2 {
-    width: 250px;
-    height: 250px;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 78px;
+    color: #FFFFFF;
     padding-left: 70px;
+    padding-top: 53px;
+    border: 2px dotted;
 }
 
-.filter-block-3 {
+.catalog-filter-1 {
+    display: flex;
+    flex-direction: column;
     width: 250px;
-    height: 250px;
+    height: 240px;
+    border: 2px dotted;
+    padding-left: 30px;
 }
 
-.filter-block-4 {
-    width: 450px;
-    height: 250px;
-}
-
-.filter-block-5 {
+.catalog-filter-2 {
+    display: flex;
+    flex-direction: column;
     width: 250px;
-    height: 250px;
+    height: 240px;
+    border: 2px dotted;
+    padding-left: 30px;
+}
+
+.catalog-filter-3 {
+    width: 410px;
+    height: 240px;
+    border: 2px dotted;
+}
+
+.catalog-filter-input {
+    width: 145px;
+    height: 48px;
+}
+
+.catalog-filter-4 {
+    width: 250px;
+    height: 240px;
+    border: 2px dotted;
 }
 .botton-filter {
     width: 160px;
@@ -453,63 +467,72 @@ body {
     border-radius: 4px;
     margin-top: 76px;
 }
-.filter-throw {
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23px;
-    color: #FFFFFF;
-    padding-left: 40px;
-}
+
 /*===================================================== СОРТИРОВКА*/
+
 .sorting {
     display: flex;
     width: 1057px;
     height: 47px;
-    padding-top: 44px;
-    padding-left: 70px;
+    border: 1px dotted;
+    margin: 0 auto;
+    margin-top: 44px;
 }
 
-.sorting-filter-title {
+.sorting-title {
     font-size: 30px;
     text-transform: uppercase;
     color: #000000;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .select-control {
     width: 287px;
     height: 47px;
     margin-left: 190px;
+    border: 2px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
-
 .sorting-button-1 {
-    width: 48px;
-    height: 48px;
+    width: 47px;
+    height: 47px;
     background-image: url(../image/sorting-1.svg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
     margin-left: 81px;
+    border: 2px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 .sorting-button-2 {
-    width: 48px;
-    height: 48px;
+    width: 47px;
+    height: 47px;
     background-image: url(../image/sorting-2.svg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
     margin-left: 8px;
+    border: 2px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
 .sorting-button-3 {
-    width: 48px;
-    height: 48px;
+    width: 47px;
+    height: 47px;
     background-image: url(../image/sorting-3.svg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
     margin-left: 8px;
+    border: 2px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
+
+
 
 /*===================================================== КАТАЛОГ*/
 .sorting-filter {
@@ -524,6 +547,7 @@ body {
     width: 1057px;
     height: 123px;
     padding-top: 73px;
+    padding-left: 73px;
 }
 
 .hotel-card-title {
