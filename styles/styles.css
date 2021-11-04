@@ -285,14 +285,13 @@ body {
 }
     /*============================================== Блок поиска гостиниц*/
 
-
 .search-title {
     padding-top: 90px;
 }
 
 .search-hotel {
     width: 1200px;
-    height: 420px;
+    margin-bottom: 90px;
 }
 .search-title {
     font-family: PT Sans;
@@ -474,6 +473,23 @@ body {
     border-radius: 4px;
     margin-top: 76px;
 }
+
+.filter-throw {
+    width: 160px;
+    height: 23px;
+    background: transparent;
+    border: none;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+
 
 /*===================================================== СОРТИРОВКА*/
 
