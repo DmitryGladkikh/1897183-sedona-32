@@ -493,7 +493,6 @@ body {
 .sorting {
     display: flex;
     width: 1057px;
-    height: 47px;
     margin: 0 auto;
     margin-top: 44px;
 }
@@ -550,6 +549,8 @@ body {
     box-sizing: border-box;
     border-radius: 4px;
 }
+
+
 
 
 
