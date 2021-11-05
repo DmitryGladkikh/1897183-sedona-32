@@ -209,7 +209,6 @@ body {
 
 .icon-description {
     width: 250px;
-    height: 73px;
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
@@ -352,15 +351,14 @@ body {
 
 /*===================================================== Footer */
 
-.page-footer-new {
+.page-footer {
     display: flex;
     width: 1200px;
-    height: 120px;
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 .footer-social {
     width: 240px;
-    height: 120px;
     margin: 0;
     padding: 0;
 }
@@ -375,7 +373,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
-    padding-top: 40px;
+    padding-top: 25px;
 }
 
 .footer-logo {
@@ -388,7 +386,6 @@ body {
 
 .catalog-filter {
     width: 1200px;
-    height: 407px;
     background-image: url("../image/catalog-background1.jpg");
 }
 
@@ -418,7 +415,6 @@ body {
 
 .catalog-title {
     width: 620px;
-    height: 105px;
     margin: 0;
     font-family: PT Sans;
     font-style: normal;
@@ -428,6 +424,7 @@ body {
     color: #FFFFFF;
     padding-left: 70px;
     padding-top: 53px;
+    padding-bottom: 35px;
 }
 
 .catalog-filter-1 {
@@ -567,7 +564,6 @@ body {
 .greentree {
     display: flex;
     width: 1057px;
-    height: 123px;
     padding-top: 73px;
     padding-left: 73px;
 }
@@ -601,7 +597,6 @@ body {
 
 .hotel-card {
     width: 160px;
-    height: 37px;
     background-color: #F2F2F2;
     border-radius: 4px;
     text-align: center;
@@ -683,7 +678,6 @@ body {
 .pagination {
     display: flex;
     width: 1056px;
-    height: 55px;
     margin: 60px;
 }
 .pagination-link {
@@ -693,7 +687,6 @@ body {
 
 .pagination-item-one {
     width: 55px;
-    height: 55px;
     margin-top: 5px;
     background-color: #F2F2F2;
     border-radius: 4px;
@@ -710,7 +703,6 @@ body {
 
 .pagination-item {
     width: 55px;
-    height: 55px;
     margin-top: 5px;
     background-color: #83B3D3;
     border-radius: 4px;
