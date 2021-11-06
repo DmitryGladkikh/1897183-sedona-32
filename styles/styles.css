@@ -385,6 +385,7 @@ body {
     padding-bottom: 30px;
 }
 .footer-social {
+    display: flex;
     width: 240px;
     margin: 0;
     padding: 0;
