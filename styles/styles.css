@@ -582,15 +582,8 @@ body {
 
 
 /*===================================================== КАТАЛОГ*/
-.sorting-filter {
+.cadr-list {
  width: 1056px;
-}
-
-.card-list {
-    display: flex;
-    width: 1057px;
-    padding-top: 73px;
-    padding-left: 73px;
 }
 
 .hotel-card-title {
@@ -620,6 +613,13 @@ body {
     margin-left: 310px;
 }
 
+.amara-resort,
+.desert-quail,
+.villas-at-poco,
+.greentree {
+    display: flex;
+}
+
 .hotel-card {
     width: 160px;
     background-color: #F2F2F2;
@@ -628,6 +628,7 @@ body {
     text-transform: uppercase;
     margin-top: 85px;
 }
+
 
 .button-Amara,
 .button-Desert,
