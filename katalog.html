@@ -33,9 +33,8 @@
             </a>
           </li>
           <li class="navigation-item">
-            <button class="button-head" type="button">
-              <span>Хочу сюда</span>
-            </button>
+            <button class="button-head" type="button"><span>Хочу сюда</span></button>
+            <span class="visually-hidden">кнопка хочу сюда.</span>
           </li>
         </ul>
       </nav>
@@ -50,17 +49,17 @@
               <li class="catalog-filter-1">
                 <h3 class="catalog-filter-title">Инфраструктура:</h3>
                 <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="swimming-pool" checked>
+                <input class="control-input" type="checkbox" name="swimming-pool" checked>
                 <span class="control-mark"></span>
                 <span class="control-label">Бассейн</span>
                </label>
                <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="parking" checked>
+                <input class="control-input" type="checkbox" name="parking" checked>
                 <span class="control-mark"></span>
                 <span class="control-label">Парковка</span>
                </label>
                <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="wi-fi">
+                <input class=" control-input" type="checkbox" name="wi-fi">
                 <span class="control-mark"></span>
                 <span class="control-label">WI-FI</span>
                </label>
@@ -69,17 +68,17 @@
               <li class="catalog-filter-2">
                 <h3 class="catalog-filter-title">Тип жилья:</h3>
                 <label class="control">
-                  <input class="visually-hidden control-input" type="radio" name="product-group" value="shaving-supplies" checked>
+                  <input class="control-input" type="radio" name="product-group" value="shaving-supplies" checked>
                   <span class="control-mark"></span>
                   <span class="control-label">Гостиница</span>
                 </label>
                 <label class="control">
-                  <input class="visually-hidden control-input" type="radio" name="product-group" value="care-products">
+                  <input class="control-input" type="radio" name="product-group" value="care-products">
                   <span class="control-mark"></span>
                   <span class="control-label">Мотель</span>
                 </label>
                 <label class="control">
-                  <input class="visually-hidden control-input" type="radio" name="product-group" value="accessories">
+                  <input class="control-input" type="radio" name="product-group" value="accessories">
                   <span class="control-mark"></span>
                   <span class="control-label">Апартаменты</span>
                 </label>
@@ -104,7 +103,9 @@
 
               <li class="catalog-filter-4">
                 <button class="botton-filter" type="submit">Применить</button>
+                 <span class="visually-hidden">Применить</span>
                 <button class="filter-throw" type="reset">Сбросить</button>
+                 <span class="visually-hidden">Сбросить</span>
               </li>
              </ul>
         </section>
@@ -119,15 +120,19 @@
              </select>
             </form>
             <button class="sorting-button-1" type="button"></button>
+             <span class="visually-hidden">Отображать по шесть вариантов</span>
             <button class="sorting-button-2" type="button"></button>
+             <span class="visually-hidden">Отображать один вариант</span>
             <button class="sorting-button-3" type="button"></button>
+             <span class="visually-hidden">Отображать четыре варианта</span>
          </section>
 
-         
         <!--===================================================== Каталог -->
               <section class="sorting-filter">
-                <ul class="amara-resort">
-                  <img src="./image/Каталог/hotel-1.jpg" width="180" height="120" alt="Amara Resort & Spa">
+                <ul class="card-list">
+                  <li class="amara-resort">
+                   <img src="./image/Каталог/hotel-1.jpg" width="180" height="120" alt="Amara Resort & Spa">
+                  </li>
                   <li class="amara">
                     <h3 class="hotel-card-title">Amara Resort & Spa</h3>
                     <p class="hotel-card-title">Гостиница От 4000 ₽</p>
@@ -139,8 +144,10 @@
                   </li>
                 </ul>
 
-                <ul class="desert-quail">
+                <ul class="card-list">
+                <li class="desert-quail">
                   <img src="./image/Каталог/hotel-2.jpg" width="180" height="120" alt="Desert Quail Inn">
+                </li>
                   <li class="desert">
                     <h3 class="hotel-card-title">Desert Quail Inn</h3>
                     <p class="hotel-card-title">Гостиница От 3000 ₽</p>
@@ -152,8 +159,10 @@
                   </li>
                 </ul>
 
-                <ul class="villas-at-poco">
-                  <img src="./image/Каталог/hotel-3.jpg" width="180" height="120" alt="Villas at Poco Diablo">
+                <ul class="card-list">
+                  <li class="villas-at-poco">
+                   <img src="./image/Каталог/hotel-3.jpg" width="180" height="120" alt="Villas at Poco Diablo">
+                  </li>
                   <li class="villas">
                     <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
                     <p class="hotel-card-title">Гостиница От 2000 ₽</p>
@@ -164,9 +173,11 @@
                     <p class="hotel-card">Рейтинг: 9,2</p>
                   </li>
                 </ul>
-                
-                <ul class="greentree">
-                  <img src="./image/Каталог/hotel-4.jpg" width="180" height="120" alt="GreenTree Inn">
+
+                <ul class="card-list">
+                  <li class="greentree">
+                   <img src="./image/Каталог/hotel-4.jpg" width="180" height="120" alt="GreenTree Inn">
+                  </li>
                   <li class="villas">
                     <h3 class="hotel-card-title">GreenTree Inn</h3>
                     <p class="hotel-card-title">Гостиница От 3000 ₽</p>
@@ -177,6 +188,7 @@
                     <p class="hotel-card">Рейтинг: 9,2</p>
                   </li>
                 </ul>
+
                 <button class="button-pagination-show-more" type="button">Загрузить еще</button>
               </section>
 
@@ -233,23 +245,20 @@
     <footer class="page-footer">
       <ul class="footer-social">
         <li class="footer-social-item">
-           <a class="button" href="#">
+          <button class="button-twitter" type="submit"></button>
             <span class="visually-hidden">Твиттер</span>
-           </a>
          </li>
          <li class="footer-social-item">
-           <a class="button" href="#">
-             <span class="visually-hidden">Фейсбук</span>
-           </a>
+           <button class="button-facebook" type="submit"></button>
+          <span class="visually-hidden">Фейсбук</span>
          </li>
          <li class="footer-social-item">
-           <a class="button" href="#">
-             <span class="visually-hidden">Ютуб</span>
-           </a>
+           <button class="button-youtube" type="submit"></button>
+            <span class="visually-hidden">Ютуб</span>
         </li>
       </ul>
     <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-    <img class="footer-logo" src="./image/LogoAcademy.svg" alt="Сделано в академии" width="115" height="34">
+    <img class="footer-logo" src="./image/logoacademy.svg" alt="Сделано в академии" width="115" height="34">
     </footer>
     </body>
 </html>
