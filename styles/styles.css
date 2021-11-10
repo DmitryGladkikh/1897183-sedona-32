@@ -357,15 +357,21 @@ body {
 
 .search-hotels {
     padding-top: 73px;
+    padding-bottom: 90px;
 }
 
 
     /*============================================== Блок подписки */
-/*.mailing-title {
+.mailing-list {
+    list-style-type: none;
+}
+
+.mailing-title {
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
@@ -376,20 +382,39 @@ body {
 .mailing-block {
     width: 1200px;
     height: 411px;
-    /*background-image: url("../image/catalog-background1.jpg");
+    background-image: url("../image/catalog-background1.jpg");
     padding-top: 90px;
     background-repeat: no-repeat;
 }
 
 .mailing-description {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
-.mailing {
+.mailing-button {
+    display: flex;
+    padding-top: 50px;
+    margin-left: 390px;
+}
 
-}*/
+.mailing-block {
+    width: 1200px;
+    background-image: url("../image/background1.jpg");
+    padding: 0;
 
+}
+
+.mailing-list {
+    margin: 0;
+}
 
 /*===================================================== Footer */
 
@@ -423,10 +448,17 @@ body {
 }
 .footer-social {
     display: flex;
+    flex-wrap: wrap;
     width: 240px;
     list-style-type: none;
     margin: 0;
 }
+
+.footer-social-item{
+    margin-right: 8px;
+    padding-top: 30px;
+}
+
 .footer-phone {
     width: 720px;
     font-family: "PT Sans";
