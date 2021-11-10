@@ -37,8 +37,15 @@ body {
 }
 
 .visually-hidden {
-    display: none;
-}
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 /*===================================================== Шапка*/
 .navigation {
     display: flex;
@@ -51,17 +58,19 @@ body {
 }
 
 .navigation-list {
+    display: flex;
+    flex-wrap: wrap;
     width: 350px;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
-.navigation-user {
-    max-width: 250px;
-    margin-left: auto;
-  }
+
 
 .navigation-link {
+    display: block;
+    padding: 26px 15px;
     font-family: "PT sans", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -100,6 +109,7 @@ body {
 
 .main{
     margin-top: 50px;
+    padding-top: 50px;
 }
 
 .main-container {
@@ -108,7 +118,7 @@ body {
 
 .main-title {
     padding-top: 63px;
-    padding-bottom: 15px;
+    padding-bottom: 23px;
     text-align: center;
     color: #000000;
     text-transform: uppercase;
@@ -143,14 +153,18 @@ body {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
     text-transform: uppercase;
+    margin: 0;
+    padding-top: 93px;
 }
 
 .advantages-list {
-    padding-top: 55px;
-    margin: auto;
     text-align: center;
+}
+
+.advantages-description-one {
+    margin: 0;
+    padding-top: 25px;
 }
 
 .advantages-description {
@@ -161,14 +175,13 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px; 
-    text-align: center;
     margin: auto;
+    padding-top: 25px;
 }
 
 .first-block {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
 } 
 
 .advantages {
@@ -177,8 +190,6 @@ body {
     margin-left: auto;
     background-color: #83B3D3;
     color: #FFFFFF;
-    margin: 0;
-    padding: 0;
 }
 
 .second-block {
@@ -208,6 +219,7 @@ body {
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
+    margin: 0;
     padding-top: 184px; 
 }
 
@@ -220,6 +232,7 @@ body {
     line-height: 21px; 
     text-align: center;
     margin: auto;
+    padding-top: 20px;
 }
 
 .icon-home {
@@ -247,11 +260,22 @@ body {
     padding: 0;
     text-align: center;
     color: #000000;
+    list-style-type: none;
 }
 
 .advantages-item-third {
     width: 400px;
     height: 384px;
+}
+
+.advantages-number {
+    margin: 0;
+    padding-top: 25px;
+}
+
+.advantages-third {
+    margin: 0;
+    padding-top: 25px;
 }
 
 .title-third {
@@ -263,6 +287,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     padding-top: 98px;
+    margin: 0;
     }
 
 .fill {
@@ -288,23 +313,24 @@ body {
 }
     /*============================================== Блок поиска гостиниц*/
 
-.search-title {
-    padding-top: 90px;
-}
-
 .search-hotel {
     width: 1200px;
-    margin-bottom: 90px;
+    margin: 0;
+    list-style-type: none;
 }
+
 .search-title {
     font-family: PT Sans;
     font-style: normal;
-    font-weight: bold;
     font-size: 30px;
     line-height: 36px; 
     text-align: center;
     color: #000000;
+    text-transform: uppercase;
+    padding-top: 90px;
+    margin: 0;
 }
+
 .search-description-date {
     font-family: PT Sans;
     font-style: normal;
@@ -314,26 +340,28 @@ body {
     text-align: center;
     color: #333333;
     padding-top: 15px;
+    margin: 0;
 }
 .button-search {
     font-weight: bold;
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px;
     width: 575px;
     height: 60px;
     background-color: #756257;
     color: #FFFFFF;
     border-radius: 10px;
     margin-left: 312px;
-    margin-top: 70px;
+}
+
+.search-hotels {
+    padding-top: 73px;
 }
 
 
-
     /*============================================== Блок подписки */
-.mailing-title {
+/*.mailing-title {
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
@@ -341,16 +369,26 @@ body {
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
+    margin: 0;
     padding-top: 94px;
 }
 
-.mailing {
+.mailing-block {
     width: 1200px;
     height: 411px;
-    left: 40px;
-    background-image: url("../image/catalog-background1.jpg");
+    /*background-image: url("../image/catalog-background1.jpg");
+    padding-top: 90px;
     background-repeat: no-repeat;
 }
+
+.mailing-description {
+    margin: 0;
+    padding-top: 30px;
+}
+
+.mailing {
+
+}*/
 
 
 /*===================================================== Footer */
@@ -382,13 +420,12 @@ body {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 30px;
 }
 .footer-social {
     display: flex;
     width: 240px;
+    list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 .footer-phone {
     width: 720px;

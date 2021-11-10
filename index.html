@@ -20,10 +20,10 @@
             <a class="navigation-link" href="hotels.html">Гостиницы</a>
           </li>
         </ul>
-      <img class="logo" src="image/sedona.svg" width="138" height="70" alt="Городок Седона">
+       <img class="logo" src="image/sedona.svg" width="138" height="70" alt="Городок Седона">
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link-search" href="#">
+            <a class="navigation-link" href="#">
               <img src="./image/search.svg" alt="поиск">
             </a>
           </li>
@@ -32,7 +32,7 @@
               <img src="./image/favourites.svg" alt="избранное">
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-link">
             <button class="button-head" type="button">
               <span>Хочу сюда</span>
             </button>
@@ -96,38 +96,41 @@
           <ul class="advantages-list-third">
            <li class="advantages-item-third">
              <h3 class="title-third">Небольшая <br>площадь</h3>
-             <p class="advantages-third">№3</p>
+             <p class="advantages-number">№3</p>
              <p class="advantages-third">Все достопримечательности <br>находятся очень близко</p>
            </li>
            <li class="advantages-item-third fill">
              <h3 class="title-third">Красивая <br>дорога</h3>
-             <p class="advantages-third">№4</p>
+             <p class="advantages-number">№4</p>
              <p class="advantages-third">Ехать в Седону из Лас-Вегаса <br>совсем не скучно!</p>
            </li>     
            <li class="advantages-item-third">
              <h3 class="title-third">Мало <br>туристов</h3>
-             <p class="advantages-third">№5</p>
+             <p class="advantages-number">№5</p>
              <p class="advantages-third">Большинство едет в Гранд <br>Каньон и толпится там</p>
            </li>
           </ul>
         </section>
  <!--===================================================== Блок поиска гостиниц -->
-        <div class="search-hotel">
-          <section class="search">
-           <h2 class="search-title">Заинтересовались?</h2>
-           <p class="search-description-date">Укажите предполагаемые даты поездки,
-           <br>и мы покажем вам лучшие предложения гостиниц в Седоне
-           </p>
-          </section>
-          <button class="button-search" type="button">
+        <ul class="search-hotel">
+          <li class="search">
+            <h2 class="search-title">Заинтересовались?</h2>
+          </li>
+          <li class="search">
+            <p class="search-description-date">Укажите предполагаемые даты поездки,
+            <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          </li>
+          <li class="search-hotels">
+           <button class="button-search" type="button">
             <span>поиск гостиницы в Седоне</span>
-          </button>
-        </div>
+           </button>
+          </li>
+        </ul>
 <!--===================================================== Блок подписки -->
-        <div class="mailing-block">
+        <!--<div class="mailing-block">
          <section class="mailing">
          <h2 class="mailing-title">подпишитесь на рассылку</h2>
-         <p class="search-description">Только полезная информация и никакого спама,
+         <p class="mailing-description">Только полезная информация и никакого спама,
           <br>честное бойскаутское!
          </p>
          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post" >
@@ -140,6 +143,25 @@
          </form>
          </section>
         </div>
+        <div class="mailing-block">
+         <ul class="mailing-list">
+           <li class="mailing">
+            <h2 class="mailing-title">подпишитесь на рассылку</h2>
+           </li>
+           <li class="mailing-description">
+            <p class="mailing-description">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
+           </li>
+           <li class="mailing-button">
+            <p class="newsletter-email">
+              <input class="field"  placeholder="Ваш e-mai" type="email" name="newsletter-email" id="newsletter-email" required>
+            </p>
+            <button class="button-newsletter-button" type="submit">
+              <span>Подписаться</span>
+            </button>
+           </li>
+          </ul>
+        </div>-->
+
       </div>
     </main>
 <!--===================================================== Footer -->
