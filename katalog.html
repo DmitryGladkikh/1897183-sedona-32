@@ -20,10 +20,10 @@
             <a class="navigation-link" href="hotels.html">Гостиницы</a>
           </li>
         </ul>
-      <img class="logo" src="image/sedona.svg" width="138" height="70" alt="Городок Седона">
+       <img class="logo" src="image/sedona.svg" width="138" height="70" alt="Городок Седона">
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link-search" href="#">
+            <a class="navigation-link" href="#">
               <img src="./image/search.svg" alt="поиск">
             </a>
           </li>
@@ -32,9 +32,10 @@
               <img src="./image/favourites.svg" alt="избранное">
             </a>
           </li>
-          <li class="navigation-item">
-            <button class="button-head" type="button"><span>Хочу сюда</span></button>
-            <span class="visually-hidden">кнопка хочу сюда.</span>
+          <li class="navigation-link">
+            <button class="button-head" type="button">
+              <span>Хочу сюда</span>
+            </button>
           </li>
         </ul>
       </nav>
@@ -43,9 +44,18 @@
       <div class="page-container">
         <!--===================================================== Каталог фильтр -->        
         <section class="catalog-filter">
-             <h2 class="catalog-title">Гостиницы Седоны</h2>
+          <header class="inner-header">
+            <h1 class="inner-header-title">Гостиницы Седоны</h1>
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs-item">
+                <img src="./image/icon-home.svg" href="index.html" alt="перейти на главную страницу">
+              </li>
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link">Гостиницы</a>
+              </li>
+            </ul>
+          </header>
              <ul class="catalog-filter-group">
-
               <li class="catalog-filter-1">
                 <h3 class="catalog-filter-title">Инфраструктура:</h3>
                 <label class="control">
@@ -190,21 +200,24 @@
                 </form>
               </div>
         <!--===================================================== Mailing -->
-        <section class="mailing">
-          <h2 class="mailing-title">Подпишитесь на рассылку</h2>
-          <p class="search-description">Только полезная информация и никакого спама,
-            честное бойскаутское!
-          </p>
-          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <p class="newsletter-email">
-              <label class="visually-hidden" for="newsletter-email">Email</label>
-              <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
-            </p>
-            <button class="button newsletter-button" type="submit">
-              <span class="visually-hidden">Отправить</span>
-            </button>
-          </form>
-         </section>
+              <div class="mailing-katalog">
+                <ul class="mailing-katalog-list">
+                  <li class="mailin-item-katalog">
+                    <h2 class="mailing-title-katalog">подпишитесь на рассылку</h2>
+                   </li>
+                   <li class="mailing-description">
+                    <p class="mailing-description-katalog">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
+                   </li>
+                   <li class="mailing-button-katalog">
+                    <p class="newsletter-email">
+                      <input class="field"  placeholder="Ваш e-mai" type="email" name="newsletter-email" id="newsletter-email" required>
+                    </p>
+                    <button class="button-newsletter-button" type="submit">
+                      <span>Подписаться</span>
+                    </button>
+                   </li>
+                </ul>
+              </div>
        </div>   
     </main>
     <!--===================================================== Footer -->

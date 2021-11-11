@@ -488,7 +488,40 @@ body {
 
 .catalog-filter-group {
     display: flex;
+    list-style-type: none;
     margin: 0;
+    padding-bottom: 87px;
+}
+
+.inner-header-title {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 78px;
+    margin: 0;
+    margin-bottom: -5px;
+    color: #FFFFFF;
+    padding-top: 35px;
+    padding-left: 70px;
+}
+
+.breadcrumbs {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 70px;
+}
+
+.breadcrumbs-link {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: 25px;
 }
 
 .control-label,
@@ -501,6 +534,7 @@ body {
     color: #FFFFFF;
 }
 
+
 .catalog-filter-title {
     font-family: PT Sans;
     font-style: normal;
@@ -508,6 +542,9 @@ body {
     font-size: 20px;
     line-height: 26px;  
     color: #FFFFFF;
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 30px;
 }
 
 .catalog-title {
@@ -528,7 +565,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 250px;
-    height: 240px;
+
     padding-left: 30px;
 }
 
@@ -536,13 +573,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 250px;
-    height: 240px;
+
     padding-left: 30px;
 }
 
 .catalog-filter-3 {
     width: 410px;
-    height: 240px;
+
 }
 
 .catalog-filter-input {
@@ -552,7 +589,7 @@ body {
 
 .catalog-filter-4 {
     width: 250px;
-    height: 240px;
+
 }
 .botton-filter {
     width: 160px;
@@ -598,8 +635,9 @@ body {
     font-size: 30px;
     text-transform: uppercase;
     color: #000000;
-    margin: 0 auto;
-    margin-top: 10px;
+    margin: 0;
+    padding-left: 20px;
+
 }
 
 .select-control {
@@ -654,13 +692,13 @@ body {
 /*===================================================== КАТАЛОГ*/
 .cadr-list {
  width: 1056px;
+ list-style-type: none;
+ margin: 0;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 40px;
 }
 
-.hotel-card-title {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 37px;
-}
 
 .amara-rating {
     background-image: url("../image/stars-1.svg");
@@ -688,7 +726,9 @@ body {
 .villas-at-poco,
 .greentree {
     display: flex;
+    padding-top: 30px;
 }
+
 
 .hotel-card {
     width: 160px;
@@ -752,6 +792,49 @@ body {
     color: #FFFFFF
 }
 
+/*===================================================== mailing*/
+
+.mailing-katalog {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mailing-title-katalog {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.mailing-button-katalog {
+    display: flex;
+    padding-left: 180px;
+    padding-top: 50px;
+}
+
+.mailing-katalog-list {
+    list-style-type: none;
+}
+
+.mailing-description-katalog {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;  
+    color: #333333;
+    margin: 0;
+}
+
+
+/*===================================================== ПАГИНАЦИЯ*/
 .button-pagination-show-more {
     width: 625px;
     height: 55px;
@@ -768,8 +851,6 @@ body {
     margin-top: 60px;
     margin-left: 288px;
 }
-
-/*===================================================== ПАГИНАЦИЯ*/
 
 .pagination {
     display: flex;
