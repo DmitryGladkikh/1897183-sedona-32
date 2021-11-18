@@ -62,15 +62,27 @@ body {
     flex-wrap: wrap;
     width: 350px;
     margin: 0;
-    padding: 0;
     list-style-type: none;
 }
 
 
+.search-icon {
+    padding-top: 26px;
+    padding-right: 15px;
+}
+
+.favourites-icon {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.navigation-item {
+    padding-right: 10px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
 
 .navigation-link {
-    display: block;
-    padding: 26px 15px;
     font-family: "PT sans", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -78,9 +90,9 @@ body {
     line-height: 26px;
     color: inherit;
     text-decoration: none;
+    color: #000000;
 }
 
-/*======================== КНОПКА */
 .button-head {
     font-family: PT Sans;
     font-style: normal;
@@ -91,9 +103,19 @@ body {
     text-transform: uppercase;
     width: 160px;
     height: 37px;
+    border: none;
     background-color: #756257;
     color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 4px;
 }
+
+.navigation-button {
+    padding-top: 14px;
+}
+
+
+/*=====================================================*/
 
 .main-screen {
     color: #ffffff;
@@ -103,13 +125,18 @@ body {
     text-align: center;
     background-repeat: no-repeat;
     width: 1200px; 
-    height: 485px;
-    margin: 0 auto;
+
 }
 
 .main{
     margin-top: 50px;
     padding-top: 50px;
+}
+
+.decoration {
+    width: 1200px;
+    height: 57px;
+    background-image: url("../image/dekor.svg");
 }
 
 .main-container {
@@ -238,16 +265,19 @@ body {
 .icon-home {
     background-image: url("../image/icon-1.png");
     background-repeat: no-repeat;
+    background-position: 162px 89px;
 }
 
 .icon-eat {
     background-image: url("../image/icon-2.png");
     background-repeat: no-repeat;
+    background-position: 162px 89px;
 }
 
 .icon-gift {
     background-image: url("../image/icon-3.png");
     background-repeat: no-repeat;
+    background-position: 162px 89px;
 }
 
 
@@ -300,7 +330,7 @@ body {
     color:#FFFFFF;
     background-color: #83B3D3;
     width: 200px;
-    height: 60px;
+    height: 62px;
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
@@ -309,6 +339,9 @@ body {
     align-items: center;
     text-align: center;
     text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .field {
@@ -321,14 +354,13 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+    border: none;
+    padding-left: 22px
 }
 
 .newsletter-email {
     display: flex;
-    padding-left:  40px;
+    padding-left:  185px;
     padding-top: 50px;
     padding-bottom: 60px;
 }
@@ -375,6 +407,10 @@ body {
     margin-top: 90px;
 }
 
+.email-adress {
+    margin: 0;
+}
+
     /*============================================== Блок поиска гостиниц*/
 
 .search-hotel {
@@ -395,7 +431,6 @@ body {
 }
 
 .search-description-date {
-    width: 395px;
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
@@ -406,7 +441,7 @@ body {
     padding-top: 30px;
     padding-bottom: 70px;
     margin: 0;
-    padding-left: 395px;
+
 }
 .button-search {
     font-weight: bold;
@@ -419,7 +454,10 @@ body {
     color: #FFFFFF;
     border-radius: 10px;
     margin-left: 312px;
+    border: none;
+    cursor: pointer;
 }
+
 
 .search-hotels {
     padding-top: 73px;
@@ -434,6 +472,8 @@ body {
     background-image: url("../image/twitter.svg");
     background-repeat: no-repeat;
     border: 0;
+    background-position: center;
+    background-color: #ffffff;
 }
 .button-facebook {
     width: 30px;
@@ -441,6 +481,8 @@ body {
     background-image: url("../image/facebook.svg");
     background-repeat: no-repeat;
     border: 0;
+    background-position: center;
+    background-color: #ffffff;
 }
 
 .button-youtube {
@@ -449,11 +491,14 @@ body {
     background-image: url("../image/youtube.svg");
     background-repeat: no-repeat;
     border: 0;
+    background-position: center;
+    background-color: #ffffff;
 }
 
 .page-footer {
     display: flex;
     width: 1200px;
+    height: 120px;
     margin: 0 auto;
 }
 .footer-social {
@@ -466,7 +511,7 @@ body {
 
 .footer-social-item{
     margin-right: 8px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .footer-phone {
@@ -480,7 +525,8 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
-    padding-top: 25px;
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
 
 .footer-logo {
@@ -586,7 +632,7 @@ body {
 }
 
 .catalog-filter-3 {
-    width: 410px;
+    width: 325px;
 }
 
 .catalog-filter-input {
@@ -696,6 +742,12 @@ body {
 
 
 /*===================================================== КАТАЛОГ*/
+
+hr {
+    width: 1056px;
+    border: 1px solid #E6E6E6;
+}
+
 .cadr-list {
  width: 1056px;
  list-style-type: none;
@@ -705,6 +757,13 @@ body {
  padding-top: 40px;
 }
 
+.hotel-card-title {
+    margin: 0;
+}
+
+.card-content {
+    background-color: burlywood;
+}
 
 .amara-rating {
     background-image: url("../image/stars-1.svg");
@@ -732,17 +791,18 @@ body {
 .villas-at-poco,
 .greentree {
     display: flex;
-    padding-top: 30px;
+    background-color: rgb(43, 155, 175);
+    margin-bottom: 10px;
 }
 
 
 .hotel-card {
     width: 160px;
+    height: 37px;
     background-color: #F2F2F2;
     border-radius: 4px;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 85px;
 }
 
 
@@ -762,8 +822,6 @@ body {
     line-height: 21px; 
     text-align: center;
     color: #FFFFFF;
-    margin-left: 37px;
-    margin-top: 30px;
 }
 
 .button-Villas-two {
@@ -856,6 +914,7 @@ body {
 .pagination-link {
     display: flex;
     margin: 0;
+    list-style-type: none;
 }
 
 .pagination-item-one {
