@@ -93,6 +93,7 @@ body {
     color: #000000;
 }
 
+
 .navigation-link:hover {
     color: #756257;
     text-shadow: 0px 4px 4px;
@@ -822,6 +823,7 @@ hr {
 }
 
 .card-content {
+    margin-left: 36px;
     background-color: burlywood;
 }
 
@@ -855,6 +857,16 @@ hr {
     margin-bottom: 10px;
 }
 
+.stars {
+    width: 90px;
+    height: 17px;
+    background-image: url("../image/stars-1.svg");
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: -10px;
+    right: -400px;
+    top: 15px;
+}
 
 .hotel-card {
     width: 160px;
@@ -863,6 +875,10 @@ hr {
     border-radius: 4px;
     text-align: center;
     text-transform: uppercase;
+    margin: 0;
+    position: relative;
+    bottom: -83px;
+    left: 285px;
 }
 
 
@@ -882,6 +898,10 @@ hr {
     line-height: 21px; 
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    bottom: -27px;
 }
 
 .button-Villas-two {
@@ -896,7 +916,11 @@ hr {
     font-size: 16px;
     line-height: 21px; 
     text-align: center;
-    color: #FFFFFF
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    bottom: -27px;
 }
 
 .button-Amara-Two,
@@ -913,7 +937,11 @@ hr {
     font-size: 16px;
     line-height: 21px; 
     text-align: center;
-    color: #FFFFFF
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    bottom: -27px;
 }
 
 /*===================================================== Блок подписки страница каталога*/
