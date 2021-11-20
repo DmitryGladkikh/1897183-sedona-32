@@ -93,6 +93,17 @@ body {
     color: #000000;
 }
 
+.navigation-link:hover {
+    color: #756257;
+    text-shadow: 0px 4px 4px;
+}
+
+.navigation-link:focus {
+    border: 3px solid #83B3D3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
 .button-head {
     font-family: PT Sans;
     font-style: normal;
@@ -110,6 +121,13 @@ body {
     border-radius: 4px;
 }
 
+.button-head:hover {
+    background: #615048;
+}
+
+.button-head:focus { 
+    border: 3px solid #83B3D3;
+}
 .navigation-button {
     padding-top: 14px;
 }
@@ -344,6 +362,15 @@ body {
     border-radius: 0px 10px 10px 0px;
 }
 
+.button-newsletter:focus {
+    background: #68A2CA;
+    border: 3px solid #756257;
+}
+.button-newsletter:hover {
+    background: #68A2CA;
+}
+
+
 .field {
     width: 600px;
     height: 60px;
@@ -364,6 +391,7 @@ body {
     padding-top: 50px;
     padding-bottom: 60px;
 }
+
 
 .mailing-list {
     list-style-type: none;
@@ -458,6 +486,15 @@ body {
     cursor: pointer;
 }
 
+.button-search:hover {
+    background: #615048;
+}
+
+.button-search:focus {
+    background: #615048;
+    border: 3px solid #83B3D3;
+    box-sizing: border-box;
+}
 
 .search-hotels {
     padding-top: 73px;
@@ -474,6 +511,7 @@ body {
     border: 0;
     background-position: center;
     background-color: #ffffff;
+    cursor: pointer;
 }
 .button-facebook {
     width: 30px;
@@ -483,6 +521,7 @@ body {
     border: 0;
     background-position: center;
     background-color: #ffffff;
+    cursor: pointer;
 }
 
 .button-youtube {
@@ -493,6 +532,7 @@ body {
     border: 0;
     background-position: center;
     background-color: #ffffff;
+    cursor: pointer;
 }
 
 .page-footer {
@@ -514,6 +554,12 @@ body {
     padding-top: 40px;
 }
 
+footer-social-item:focus {
+    border: 3px solid #83B3D3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
 .footer-phone {
     width: 720px;
     font-family: "PT Sans";
@@ -529,9 +575,21 @@ body {
     padding-bottom: 25px;
 }
 
+.footer-phone:hover {
+    color: #756257;
+}
+
+.footer-phone:focus {
+    border: 3px solid #83B3D3;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
 .footer-logo {
     padding-top: 42px;
     padding-left: 52px;
+    cursor: pointer;
+    
 }
 
 
@@ -567,6 +625,7 @@ body {
     margin: 0;
     list-style-type: none;
     padding-left: 70px;
+    cursor: pointer;
 }
 
 .breadcrumbs-link {
@@ -578,6 +637,7 @@ body {
     color: #FFFFFF;
     margin: 0;
     margin-left: 25px;
+    cursor: pointer;
 }
 
 .control-label,
