@@ -807,6 +807,8 @@ footer-social-item:focus {
 hr {
     width: 1056px;
     border: 1px solid #E6E6E6;
+    margin-top: 28px;
+    margin-bottom: 28px;
 }
 
 .cadr-list {
@@ -824,7 +826,6 @@ hr {
 
 .card-content {
     margin-left: 36px;
-    background-color: burlywood;
 }
 
 .amara-rating {
@@ -853,19 +854,35 @@ hr {
 .villas-at-poco,
 .greentree {
     display: flex;
-    background-color: rgb(43, 155, 175);
     margin-bottom: 10px;
 }
 
-.stars {
-    width: 90px;
+.stars-amara {
+    width: 95px;
     height: 17px;
     background-image: url("../image/stars-1.svg");
     background-repeat: no-repeat;
-    position: relative;
-    bottom: -10px;
-    right: -400px;
-    top: 15px;
+    margin-top: 30px;
+    margin-left: 403px;
+}
+
+.stars-desert {
+    width: 95px;
+    height: 17px;
+    background-image: url("../image/stars-2.svg");
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 403px;
+}
+
+.stars-villas,
+.stars-greentree {
+    width: 95px;
+    height: 17px;
+    background-image: url("../image/stars-3.svg");
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 403px;
 }
 
 .hotel-card {
@@ -876,9 +893,8 @@ hr {
     text-align: center;
     text-transform: uppercase;
     margin: 0;
-    position: relative;
-    bottom: -83px;
-    left: 285px;
+    margin-left: -125px;
+    margin-top: 83px;
 }
 
 
@@ -902,6 +918,43 @@ hr {
     border: none;
     position: relative;
     bottom: -27px;
+}
+
+.button-Amara:hover,
+.button-Desert:hover,
+.button-Villas:hover,
+.button-GreenTree:hover {
+    background: #615048;
+}
+
+.button-Amara-Two:hover,
+.button-Desert-Two:hover,
+.button-GreenTree-Two:hover {
+    background: #68A2CA;
+}
+
+.button-Villas-two:hover {
+    background: #6C9E42;
+}
+
+.button-Villas-two:focus {
+    background: #6C9E42;  
+    border: 3px solid #756257;
+}
+
+.button-Amara:focus,
+.button-Desert:focus,
+.button-Villas:focus,
+.button-GreenTree:focus {
+    background: #615048;
+    border: 3px solid #83B3D3;
+}
+
+.button-Amara-Two:focus,
+.button-Desert-Two:focus,
+.button-GreenTree-Two:focus {
+    background: #68A2CA;
+    border: 3px solid #756257;
 }
 
 .button-Villas-two {
@@ -961,7 +1014,14 @@ hr {
     text-transform: uppercase;
     text-align: center;
     color: #000000;
+    margin-top: 90px;
 
+}
+
+.newsletter-email-katalog {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 140px;
 }
 
 .mailing-description-katalog {
@@ -975,8 +1035,6 @@ hr {
 
 }
 
-
-/*===================================================== ПАГИНАЦИЯ*/
 .button-pagination-show-more {
     width: 625px;
     height: 55px;
@@ -992,50 +1050,51 @@ hr {
     color: #FFFFFF;
     margin-top: 60px;
     margin-left: 288px;
+    cursor: pointer;
+    border: none;
 }
+
+.button-pagination-show-more:focus {
+    background: #68A2CA;
+    border: 3px solid #756257;
+}
+
+.button-pagination-show-more:hover {
+    background: #68A2CA;
+}
+
+/*===================================================== ПАГИНАЦИЯ*/
 
 .pagination {
     display: flex;
-    width: 1056px;
-    margin: 60px;
-}
-.pagination-link {
-    display: flex;
     margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
-.pagination-item-one {
-    width: 55px;
-    margin-top: 5px;
-    background-color: #F2F2F2;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 26px; 
-    text-align: center;
-    color: #000000;  
-    margin: 0;
+.pagination-container {
+    display: flex;
+    margin-top: 60px;
 }
 
-.pagination-item {
-    width: 55px;
-    margin-top: 5px;
-    background-color: #83B3D3;
-    border-radius: 4px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 26px; 
-    text-align: center;
+.pagination-link {
+    display: block;
+    box-sizing: border-box;
+    width: 50px;
+    height: 44px;
+    padding: 14px 20px;
+    line-height: 16px;
+    font-weight: 700;
     color: #FFFFFF;
+    background: #83B3D3;
+    border-radius: 4px;
     text-decoration: none;
-    margin: 0;
+    margin-right: 5px;
+}
+
+.pagination-current {
+    background: #F2F2F2;
+    color: #000000;
 }
 
 .select-control {
